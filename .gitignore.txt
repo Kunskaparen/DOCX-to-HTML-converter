@@ -1,0 +1,6 @@
+#XML test files
+*.xml
+
+#Doc and DocX test files
+*.doc
+*.docx

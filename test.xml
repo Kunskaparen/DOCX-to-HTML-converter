@@ -1,0 +1,593 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<w:document xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w10="urn:schemas-microsoft-com:office:word" xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml" xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing" xmlns:wp14="http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing" xmlns:wpg="http://schemas.microsoft.com/office/word/2010/wordprocessingGroup" xmlns:wps="http://schemas.microsoft.com/office/word/2010/wordprocessingShape" mc:Ignorable="w14 wp14">
+    <w:body>
+        <w:p>
+            <w:pPr>
+                <w:pStyle w:val="Normal" />
+                <w:jc w:val="center" />
+                <w:rPr>
+                    <w:rFonts w:ascii="Liberation Serif" w:hAnsi="Liberation Serif" />
+                    <w:color w:val="000000" />
+                    <w:sz w:val="64" />
+                    <w:szCs w:val="64" />
+                </w:rPr>
+            </w:pPr>
+            <w:r>
+                <w:rPr>
+                    <w:rFonts w:ascii="Liberation Serif" w:hAnsi="Liberation Serif" />
+                    <w:color w:val="000000" />
+                    <w:sz w:val="64" />
+                    <w:szCs w:val="64" />
+                </w:rPr>
+                <w:t>Titel</w:t>
+            </w:r>
+        </w:p>
+        <w:p>
+            <w:pPr>
+                <w:pStyle w:val="Normal" />
+                <w:jc w:val="left" />
+                <w:rPr>
+                    <w:rFonts w:ascii="Liberation Serif" w:hAnsi="Liberation Serif" />
+                    <w:b />
+                    <w:b />
+                    <w:bCs />
+                    <w:color w:val="000000" />
+                    <w:sz w:val="24" />
+                    <w:szCs w:val="24" />
+                </w:rPr>
+            </w:pPr>
+            <w:r>
+                <w:rPr>
+                    <w:rFonts w:ascii="Liberation Serif" w:hAnsi="Liberation Serif" />
+                    <w:b />
+                    <w:bCs />
+                    <w:color w:val="000000" />
+                    <w:sz w:val="24" />
+                    <w:szCs w:val="24" />
+                </w:rPr>
+                <w:t xml:space="preserve">DENNA TEXT ÄR BOLD </w:t>
+            </w:r>
+            <w:r>
+                <w:rPr>
+                    <w:rFonts w:ascii="Liberation Serif" w:hAnsi="Liberation Serif" />
+                    <w:b w:val="false" />
+                    <w:bCs w:val="false" />
+                    <w:color w:val="000000" />
+                    <w:sz w:val="24" />
+                    <w:szCs w:val="24" />
+                </w:rPr>
+                <w:t xml:space="preserve"> </w:t>
+            </w:r>
+            <w:r>
+                <w:rPr>
+                    <w:rFonts w:ascii="Liberation Serif" w:hAnsi="Liberation Serif" />
+                    <w:b w:val="false" />
+                    <w:bCs w:val="false" />
+                    <w:i />
+                    <w:iCs />
+                    <w:color w:val="000000" />
+                    <w:sz w:val="24" />
+                    <w:szCs w:val="24" />
+                    <w:shd w:fill="auto" w:val="clear" />
+                </w:rPr>
+                <w:t>DENNA TEXT ÄR ITALICS</w:t>
+            </w:r>
+            <w:r>
+                <w:rPr>
+                    <w:rFonts w:ascii="Liberation Serif" w:hAnsi="Liberation Serif" />
+                    <w:b w:val="false" />
+                    <w:bCs w:val="false" />
+                    <w:i w:val="false" />
+                    <w:iCs w:val="false" />
+                    <w:color w:val="000000" />
+                    <w:sz w:val="24" />
+                    <w:szCs w:val="24" />
+                    <w:shd w:fill="auto" w:val="clear" />
+                </w:rPr>
+                <w:t xml:space="preserve">  </w:t>
+            </w:r>
+            <w:r>
+                <w:rPr>
+                    <w:rFonts w:ascii="Liberation Serif" w:hAnsi="Liberation Serif" />
+                    <w:b w:val="false" />
+                    <w:bCs w:val="false" />
+                    <w:i w:val="false" />
+                    <w:iCs w:val="false" />
+                    <w:color w:val="FF6600" />
+                    <w:sz w:val="24" />
+                    <w:szCs w:val="24" />
+                    <w:shd w:fill="auto" w:val="clear" />
+                </w:rPr>
+                <w:t>DENNA TEXT ÄR RÖD</w:t>
+            </w:r>
+        </w:p>
+        <w:p>
+            <w:pPr>
+                <w:pStyle w:val="Normal" />
+                <w:jc w:val="left" />
+                <w:rPr>
+                    <w:b w:val="false" />
+                    <w:b w:val="false" />
+                    <w:bCs w:val="false" />
+                    <w:i w:val="false" />
+                    <w:i w:val="false" />
+                    <w:iCs w:val="false" />
+                    <w:color w:val="FF6600" />
+                    <w:shd w:fill="auto" w:val="clear" />
+                </w:rPr>
+            </w:pPr>
+            <w:r>
+                <w:rPr>
+                    <w:rFonts w:ascii="Liberation Serif" w:hAnsi="Liberation Serif" />
+                    <w:b />
+                    <w:bCs />
+                    <w:color w:val="000000" />
+                    <w:sz w:val="24" />
+                    <w:szCs w:val="24" />
+                </w:rPr>
+            </w:r>
+        </w:p>
+        <w:p>
+            <w:pPr>
+                <w:pStyle w:val="Normal" />
+                <w:jc w:val="left" />
+                <w:rPr>
+                    <w:b w:val="false" />
+                    <w:b w:val="false" />
+                    <w:bCs w:val="false" />
+                    <w:i w:val="false" />
+                    <w:i w:val="false" />
+                    <w:iCs w:val="false" />
+                    <w:color w:val="FF6600" />
+                    <w:shd w:fill="auto" w:val="clear" />
+                </w:rPr>
+            </w:pPr>
+            <w:r>
+                <w:rPr>
+                    <w:rFonts w:ascii="Liberation Serif" w:hAnsi="Liberation Serif" />
+                    <w:b />
+                    <w:bCs />
+                    <w:color w:val="000000" />
+                    <w:sz w:val="24" />
+                    <w:szCs w:val="24" />
+                </w:rPr>
+            </w:r>
+        </w:p>
+        <w:p>
+            <w:pPr>
+                <w:pStyle w:val="Normal" />
+                <w:jc w:val="right" />
+                <w:rPr>
+                    <w:b w:val="false" />
+                    <w:b w:val="false" />
+                    <w:bCs w:val="false" />
+                    <w:i w:val="false" />
+                    <w:i w:val="false" />
+                    <w:iCs w:val="false" />
+                    <w:color w:val="FF6600" />
+                    <w:shd w:fill="auto" w:val="clear" />
+                </w:rPr>
+            </w:pPr>
+            <w:r>
+                <w:rPr>
+                    <w:rFonts w:ascii="Liberation Serif" w:hAnsi="Liberation Serif" />
+                    <w:b />
+                    <w:bCs />
+                    <w:color w:val="000000" />
+                    <w:sz w:val="24" />
+                    <w:szCs w:val="24" />
+                </w:rPr>
+            </w:r>
+        </w:p>
+        <w:p>
+            <w:pPr>
+                <w:pStyle w:val="Normal" />
+                <w:jc w:val="right" />
+                <w:rPr>
+                    <w:rFonts w:ascii="Liberation Serif" w:hAnsi="Liberation Serif" />
+                    <w:b />
+                    <w:b />
+                    <w:bCs />
+                    <w:color w:val="auto" />
+                    <w:sz w:val="24" />
+                    <w:szCs w:val="24" />
+                </w:rPr>
+            </w:pPr>
+            <w:r>
+                <w:rPr>
+                    <w:rFonts w:ascii="Liberation Serif" w:hAnsi="Liberation Serif" />
+                    <w:b w:val="false" />
+                    <w:bCs w:val="false" />
+                    <w:i w:val="false" />
+                    <w:iCs w:val="false" />
+                    <w:color w:val="auto" />
+                    <w:sz w:val="24" />
+                    <w:szCs w:val="24" />
+                    <w:shd w:fill="auto" w:val="clear" />
+                </w:rPr>
+                <w:t>DENNA TEXT ÄR ÅT HÖGER</w:t>
+            </w:r>
+        </w:p>
+        <w:p>
+            <w:pPr>
+                <w:pStyle w:val="Normal" />
+                <w:ind w:left="1418" w:hanging="0" />
+                <w:jc w:val="left" />
+                <w:rPr>
+                    <w:rFonts w:ascii="Liberation Serif" w:hAnsi="Liberation Serif" />
+                    <w:b />
+                    <w:b />
+                    <w:bCs />
+                    <w:color w:val="auto" />
+                    <w:sz w:val="24" />
+                    <w:szCs w:val="24" />
+                </w:rPr>
+            </w:pPr>
+            <w:r>
+                <w:rPr>
+                    <w:rFonts w:ascii="Liberation Serif" w:hAnsi="Liberation Serif" />
+                    <w:b w:val="false" />
+                    <w:bCs w:val="false" />
+                    <w:i w:val="false" />
+                    <w:iCs w:val="false" />
+                    <w:color w:val="auto" />
+                    <w:sz w:val="24" />
+                    <w:szCs w:val="24" />
+                    <w:shd w:fill="auto" w:val="clear" />
+                </w:rPr>
+                <w:t>HÄR FINNS ETT INDRAG</w:t>
+            </w:r>
+        </w:p>
+        <w:p>
+            <w:pPr>
+                <w:pStyle w:val="Normal" />
+                <w:ind w:left="1418" w:hanging="0" />
+                <w:jc w:val="left" />
+                <w:rPr>
+                    <w:b w:val="false" />
+                    <w:b w:val="false" />
+                    <w:bCs w:val="false" />
+                    <w:i w:val="false" />
+                    <w:i w:val="false" />
+                    <w:iCs w:val="false" />
+                    <w:shd w:fill="auto" w:val="clear" />
+                </w:rPr>
+            </w:pPr>
+            <w:r>
+                <w:rPr>
+                    <w:rFonts w:ascii="Liberation Serif" w:hAnsi="Liberation Serif" />
+                    <w:b />
+                    <w:bCs />
+                    <w:color w:val="auto" />
+                    <w:sz w:val="24" />
+                    <w:szCs w:val="24" />
+                </w:rPr>
+            </w:r>
+        </w:p>
+        <w:p>
+            <w:pPr>
+                <w:pStyle w:val="Normal" />
+                <w:ind w:left="0" w:hanging="0" />
+                <w:jc w:val="left" />
+                <w:rPr>
+                    <w:rFonts w:ascii="Liberation Serif" w:hAnsi="Liberation Serif" />
+                    <w:b />
+                    <w:b />
+                    <w:bCs />
+                    <w:color w:val="auto" />
+                    <w:sz w:val="24" />
+                    <w:szCs w:val="24" />
+                </w:rPr>
+            </w:pPr>
+            <w:r>
+                <w:rPr>
+                    <w:rFonts w:ascii="Liberation Serif" w:hAnsi="Liberation Serif" />
+                    <w:b w:val="false" />
+                    <w:bCs w:val="false" />
+                    <w:i w:val="false" />
+                    <w:iCs w:val="false" />
+                    <w:color w:val="auto" />
+                    <w:sz w:val="24" />
+                    <w:szCs w:val="24" />
+                    <w:shd w:fill="auto" w:val="clear" />
+                </w:rPr>
+                <w:t>INTE HÄR</w:t>
+            </w:r>
+        </w:p>
+        <w:p>
+            <w:pPr>
+                <w:pStyle w:val="Normal" />
+                <w:ind w:left="0" w:hanging="0" />
+                <w:jc w:val="left" />
+                <w:rPr>
+                    <w:b w:val="false" />
+                    <w:b w:val="false" />
+                    <w:bCs w:val="false" />
+                    <w:i w:val="false" />
+                    <w:i w:val="false" />
+                    <w:iCs w:val="false" />
+                    <w:shd w:fill="auto" w:val="clear" />
+                </w:rPr>
+            </w:pPr>
+            <w:r>
+                <w:rPr>
+                    <w:rFonts w:ascii="Liberation Serif" w:hAnsi="Liberation Serif" />
+                    <w:b />
+                    <w:bCs />
+                    <w:color w:val="auto" />
+                    <w:sz w:val="24" />
+                    <w:szCs w:val="24" />
+                </w:rPr>
+            </w:r>
+        </w:p>
+        <w:p>
+            <w:pPr>
+                <w:pStyle w:val="Normal" />
+                <w:ind w:left="0" w:hanging="0" />
+                <w:jc w:val="left" />
+                <w:rPr>
+                    <w:rFonts w:ascii="MS Gothic" w:hAnsi="MS Gothic" />
+                    <w:b />
+                    <w:b />
+                    <w:bCs />
+                    <w:color w:val="auto" />
+                    <w:sz w:val="24" />
+                    <w:szCs w:val="24" />
+                </w:rPr>
+            </w:pPr>
+            <w:r>
+                <w:rPr>
+                    <w:rFonts w:ascii="MS Gothic" w:hAnsi="MS Gothic" />
+                    <w:b w:val="false" />
+                    <w:bCs w:val="false" />
+                    <w:i w:val="false" />
+                    <w:iCs w:val="false" />
+                    <w:color w:val="auto" />
+                    <w:sz w:val="24" />
+                    <w:szCs w:val="24" />
+                    <w:shd w:fill="auto" w:val="clear" />
+                </w:rPr>
+                <w:t>DENNA TEXT ÄR MS GOTHIC</w:t>
+            </w:r>
+        </w:p>
+        <w:p>
+            <w:pPr>
+                <w:pStyle w:val="Normal" />
+                <w:ind w:left="0" w:hanging="0" />
+                <w:jc w:val="left" />
+                <w:rPr>
+                    <w:b w:val="false" />
+                    <w:b w:val="false" />
+                    <w:bCs w:val="false" />
+                    <w:i w:val="false" />
+                    <w:i w:val="false" />
+                    <w:iCs w:val="false" />
+                    <w:shd w:fill="auto" w:val="clear" />
+                </w:rPr>
+            </w:pPr>
+            <w:r>
+                <w:rPr>
+                    <w:rFonts w:ascii="Liberation Serif" w:hAnsi="Liberation Serif" />
+                    <w:b />
+                    <w:bCs />
+                    <w:color w:val="auto" />
+                    <w:sz w:val="24" />
+                    <w:szCs w:val="24" />
+                </w:rPr>
+            </w:r>
+        </w:p>
+        <w:p>
+            <w:pPr>
+                <w:pStyle w:val="Normal" />
+                <w:ind w:left="0" w:hanging="0" />
+                <w:jc w:val="left" />
+                <w:rPr>
+                    <w:rFonts w:ascii="Liberation Serif" w:hAnsi="Liberation Serif" />
+                    <w:b />
+                    <w:b />
+                    <w:bCs />
+                    <w:color w:val="auto" />
+                    <w:sz w:val="24" />
+                    <w:szCs w:val="24" />
+                </w:rPr>
+            </w:pPr>
+            <w:r>
+                <w:rPr>
+                    <w:rFonts w:ascii="Liberation Serif" w:hAnsi="Liberation Serif" />
+                    <w:b w:val="false" />
+                    <w:bCs w:val="false" />
+                    <w:i w:val="false" />
+                    <w:iCs w:val="false" />
+                    <w:color w:val="auto" />
+                    <w:sz w:val="24" />
+                    <w:szCs w:val="24" />
+                    <w:shd w:fill="auto" w:val="clear" />
+                </w:rPr>
+                <w:t>DENNA TEXT ÄR SÅ LÅNG ATT DEN GÅR ÖVER SIDOMARGINALEN SÅ ATT DEN TAR UPP TVÅ PARAGRAFER</w:t>
+            </w:r>
+        </w:p>
+        <w:p>
+            <w:pPr>
+                <w:pStyle w:val="Normal" />
+                <w:ind w:left="0" w:hanging="0" />
+                <w:jc w:val="left" />
+                <w:rPr>
+                    <w:b w:val="false" />
+                    <w:b w:val="false" />
+                    <w:bCs w:val="false" />
+                    <w:i w:val="false" />
+                    <w:i w:val="false" />
+                    <w:iCs w:val="false" />
+                    <w:shd w:fill="auto" w:val="clear" />
+                </w:rPr>
+            </w:pPr>
+            <w:r>
+                <w:rPr>
+                    <w:rFonts w:ascii="Liberation Serif" w:hAnsi="Liberation Serif" />
+                    <w:b />
+                    <w:bCs />
+                    <w:color w:val="auto" />
+                    <w:sz w:val="24" />
+                    <w:szCs w:val="24" />
+                </w:rPr>
+            </w:r>
+        </w:p>
+        <w:p>
+            <w:pPr>
+                <w:pStyle w:val="Normal" />
+                <w:ind w:left="0" w:hanging="0" />
+                <w:jc w:val="center" />
+                <w:rPr>
+                    <w:rFonts w:ascii="Liberation Serif" w:hAnsi="Liberation Serif" />
+                    <w:b />
+                    <w:b />
+                    <w:bCs />
+                    <w:color w:val="auto" />
+                    <w:sz w:val="24" />
+                    <w:szCs w:val="24" />
+                    <w:u w:val="single" />
+                </w:rPr>
+            </w:pPr>
+            <w:r>
+                <w:rPr>
+                    <w:rFonts w:ascii="Liberation Serif" w:hAnsi="Liberation Serif" />
+                    <w:b w:val="false" />
+                    <w:bCs w:val="false" />
+                    <w:i w:val="false" />
+                    <w:iCs w:val="false" />
+                    <w:color w:val="auto" />
+                    <w:sz w:val="24" />
+                    <w:szCs w:val="24" />
+                    <w:u w:val="single" />
+                    <w:shd w:fill="auto" w:val="clear" />
+                </w:rPr>
+                <w:t>CENTRERAD UNDERSTRUKEN</w:t>
+            </w:r>
+        </w:p>
+        <w:p>
+            <w:pPr>
+                <w:pStyle w:val="Normal" />
+                <w:ind w:left="0" w:hanging="0" />
+                <w:jc w:val="center" />
+                <w:rPr>
+                    <w:b w:val="false" />
+                    <w:b w:val="false" />
+                    <w:bCs w:val="false" />
+                    <w:i w:val="false" />
+                    <w:i w:val="false" />
+                    <w:iCs w:val="false" />
+                    <w:shd w:fill="auto" w:val="clear" />
+                </w:rPr>
+            </w:pPr>
+            <w:r>
+                <w:rPr>
+                    <w:rFonts w:ascii="Liberation Serif" w:hAnsi="Liberation Serif" />
+                    <w:b />
+                    <w:bCs />
+                    <w:color w:val="auto" />
+                    <w:sz w:val="24" />
+                    <w:szCs w:val="24" />
+                    <w:u w:val="single" />
+                </w:rPr>
+            </w:r>
+        </w:p>
+        <w:p>
+            <w:pPr>
+                <w:pStyle w:val="Normal" />
+                <w:ind w:left="0" w:hanging="0" />
+                <w:jc w:val="left" />
+                <w:rPr />
+            </w:pPr>
+            <w:hyperlink r:id="rId2">
+                <w:r>
+                    <w:rPr>
+                        <w:rStyle w:val="Internetlnk" />
+                        <w:rFonts w:ascii="Liberation Serif" w:hAnsi="Liberation Serif" />
+                        <w:b w:val="false" />
+                        <w:bCs w:val="false" />
+                        <w:i w:val="false" />
+                        <w:iCs w:val="false" />
+                        <w:color w:val="auto" />
+                        <w:sz w:val="24" />
+                        <w:szCs w:val="24" />
+                        <w:u w:val="none" />
+                        <w:shd w:fill="auto" w:val="clear" />
+                    </w:rPr>
+                    <w:t>DENNA TEXT ÄR EN LÄNK</w:t>
+                </w:r>
+            </w:hyperlink>
+        </w:p>
+        <w:p>
+            <w:pPr>
+                <w:pStyle w:val="Normal" />
+                <w:ind w:left="0" w:hanging="0" />
+                <w:jc w:val="left" />
+                <w:rPr />
+            </w:pPr>
+            <w:r>
+                <w:rPr />
+            </w:r>
+        </w:p>
+        <w:p>
+            <w:pPr>
+                <w:pStyle w:val="Normal" />
+                <w:ind w:left="0" w:hanging="0" />
+                <w:jc w:val="left" />
+                <w:rPr>
+                    <w:strike />
+                </w:rPr>
+            </w:pPr>
+            <w:r>
+                <w:rPr>
+                    <w:strike />
+                </w:rPr>
+                <w:t>DENNA TEXT ÄR GENOMSTRUKEN</w:t>
+            </w:r>
+        </w:p>
+        <w:p>
+            <w:pPr>
+                <w:pStyle w:val="Normal" />
+                <w:ind w:left="0" w:hanging="0" />
+                <w:jc w:val="left" />
+                <w:rPr>
+                    <w:strike />
+                </w:rPr>
+            </w:pPr>
+            <w:r>
+                <w:rPr>
+                    <w:strike />
+                </w:rPr>
+            </w:r>
+        </w:p>
+        <w:p>
+            <w:pPr>
+                <w:pStyle w:val="Normal" />
+                <w:ind w:left="0" w:hanging="0" />
+                <w:jc w:val="left" />
+                <w:rPr>
+                    <w:strike w:val="false" />
+                    <w:dstrike w:val="false" />
+                    <w:sz w:val="36" />
+                    <w:szCs w:val="36" />
+                </w:rPr>
+            </w:pPr>
+            <w:r>
+                <w:rPr>
+                    <w:strike w:val="false" />
+                    <w:dstrike w:val="false" />
+                    <w:sz w:val="36" />
+                    <w:szCs w:val="36" />
+                </w:rPr>
+                <w:t>DENNA TEXT HAR STORLEK 18</w:t>
+            </w:r>
+        </w:p>
+        <w:sectPr>
+            <w:type w:val="nextPage" />
+            <w:pgSz w:w="11906" w:h="16838" />
+            <w:pgMar w:left="1134" w:right="1134" w:header="0" w:top="1134" w:footer="0" w:bottom="1134" w:gutter="0" />
+            <w:pgNumType w:fmt="decimal" />
+            <w:formProt w:val="false" />
+            <w:textDirection w:val="lrTb" />
+        </w:sectPr>
+    </w:body>
+</w:document>
