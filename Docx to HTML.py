@@ -22,6 +22,7 @@ indent = WORD_NAMESPACE + 'ind'
 shdBreak = WORD_NAMESPACE + 'shd'
 shade = WORD_NAMESPACE + 'shd'
 paraBorders = WORD_NAMESPACE + 'pBdr'
+borderTypes = {"single":"solid","dashed":"dashed","dotted":"dotted","dashSmallGap":"dashed","double":"double"}
 def get_docx_text(path):
     #use white-space: pre CSS
     """
@@ -35,14 +36,19 @@ def get_docx_text(path):
     #elements = list()
     styleAdditions = list()
     elementString = ["<article>"]
+	
     for paragraph in tree.iter(PARA):
         """for paraStyleElement in paragraph.find(PARAPROPS).iter():
             if paraStyleElement =="""
+		
+		#JUSTIFICATION
         justificationInfo = paragraph.find(PARAPROPS).find(justification).attrib[WORD_NAMESPACE+"val"]
         if justificationInfo != "left" and justificationInfo != "both":
             styleAdditions.append("text-align:"+justificationInfo+";")
         elif justificationInfo == "both":
             styleAdditions.append("text-align:justify;")
+		
+		#INDENT
         if paragraph.find(PARAPROPS).find(indent):
             indentInfo = dict()
             for attribKey in paragraph.find(PARAPROPS).find(indent).attrib:
@@ -53,23 +59,26 @@ def get_docx_text(path):
                 if attribKey == WORD_NAMESPACE +"start" or attribKey == WORD_NAMESPACE +"left":
                    indentInfo["left"] = (float(paragraph.find(PARAPROPS).find(indent).attrib[attribKey])/20)
             for key in indentInfo:
-                if key = "hanging":
+                if key == "hanging":
                     styleAdditions.append("margin-top:"+str(indentInfo[key])+";")
-                if key = "right" or key = "end":
+                if key == "right" or key = "end":
                     styleAdditions.append("margin-right:"+str(indentInfo[key])+";")
-                if key = "left" or key = "start":
+                if key == "left" or key = "start":
                     styleAdditions.append("margin-left:"+str(indentInfo[key)+";")
                 #left => start, right => end, hanging
+				
+		#BACKGROUND COLOURING
         if paragraph.find(PARAPROPS).find(shade):
                 if paragraph.find(PARAPROPS).find(shade).attrib[WORD_NAMESPACE +"fill"] != "auto":
                     styleAdditions.append("background-color: #"+paragraph.find(PARAPROPS).find(shade).attrib["fill"]+";")
                 
+		#BORDERS
         if paragraph.find(PARAPROPS).find(paraBorders):
             for sideElement in paragraph.find(PARAPROPS).find(paraBorders).iter():
                 if sideElement != WORD_NAMESPACE + "between":
                     sideElement.attrib["val"] =
                         
-                    
+		#GET ALL THE TEXT, FIX TO PUT TEXT INTO ITS HTML ELEMENT
         paragraphText = [element.text 
                                  for element in paragraph.iter(TEXT)
                                  if element.text] #make a list comprehension of styles to match
