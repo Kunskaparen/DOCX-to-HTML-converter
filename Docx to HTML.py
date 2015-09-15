@@ -46,20 +46,28 @@ def get_docx_text(path):
         if paragraph.find(PARAPROPS).find(indent):
             indentInfo = dict()
             for attribKey in paragraph.find(PARAPROPS).find(indent).attrib:
-                if attribKey == WORD_NAMESPACE +"left" or attribKey == WORD_NAMESPACE +"right" or attribKey == WORD_NAMESPACE +"hanging":
-                    indentInfo[attribKey] = (float(paragraph.find(PARAPROPS).find(indent).attrib[attribKey])/20)
-                elif attribKey == WORD_NAMESPACE +"end":
+                if attribKey == WORD_NAMESPACE +"hanging":
+                    indentInfo["hanging"] = (float(paragraph.find(PARAPROPS).find(indent).attrib[attribKey])/20)
+                if attribKey == WORD_NAMESPACE +"end" or attribKey == WORD_NAMESPACE +"right":
                     indentInfo["right"] = (float(paragraph.find(PARAPROPS).find(indent).attrib[attribKey])/20)
-                if attribKey == WORD_NAMESPACE +"start":
+                if attribKey == WORD_NAMESPACE +"start" or attribKey == WORD_NAMESPACE +"left":
                    indentInfo["left"] = (float(paragraph.find(PARAPROPS).find(indent).attrib[attribKey])/20)
+            for key in indentInfo:
+                if key = "hanging":
+                    styleAdditions.append("margin-top:"+str(indentInfo[key])+";")
+                if key = "right" or key = "end":
+                    styleAdditions.append("margin-right:"+str(indentInfo[key])+";")
+                if key = "left" or key = "start":
+                    styleAdditions.append("margin-left:"+str(indentInfo[key)+";")
                 #left => start, right => end, hanging
         if paragraph.find(PARAPROPS).find(shade):
                 if paragraph.find(PARAPROPS).find(shade).attrib[WORD_NAMESPACE +"fill"] != "auto":
                     styleAdditions.append("background-color: #"+paragraph.find(PARAPROPS).find(shade).attrib["fill"]+";")
+                
         if paragraph.find(PARAPROPS).find(paraBorders):
             for sideElement in paragraph.find(PARAPROPS).find(paraBorders).iter():
                 if sideElement != WORD_NAMESPACE + "between":
-                    sideElement.attrib["val"] 
+                    sideElement.attrib["val"] =
                         
                     
         paragraphText = [element.text 
