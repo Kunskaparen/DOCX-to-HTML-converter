@@ -61,10 +61,10 @@ def get_docx_text(path):
             for key in indentInfo:
                 if key == "hanging":
                     styleAdditions.append("margin-top:"+str(indentInfo[key])+";")
-                if key == "right" or key = "end":
+                if key == "right" or key == "end":
                     styleAdditions.append("margin-right:"+str(indentInfo[key])+";")
-                if key == "left" or key = "start":
-                    styleAdditions.append("margin-left:"+str(indentInfo[key)+";")
+                if key == "left" or key == "start":
+                    styleAdditions.append("margin-left:"+str(indentInfo[key])+";")
                 #left => start, right => end, hanging
 				
 		#BACKGROUND COLOURING
@@ -75,13 +75,12 @@ def get_docx_text(path):
 		#BORDERS
         if paragraph.find(PARAPROPS).find(paraBorders):
             for sideElement in paragraph.find(PARAPROPS).find(paraBorders).iter():
-                if sideElement != WORD_NAMESPACE + "between":
-                    sideElement.attrib["val"] =
+                pass
+                #if sideElement != WORD_NAMESPACE + "between":
+                    #sideElement.attrib["val"] =
                         
 		#GET ALL THE TEXT, FIX TO PUT TEXT INTO ITS HTML ELEMENT
-        paragraphText = [element.text 
-                                 for element in paragraph.iter(TEXT)
-                                 if element.text] #make a list comprehension of styles to match
+        paragraphText = [element.text for element in paragraph.iter(TEXT) if element.text] #make a list comprehension of styles to match
         if not paragraphText:
             if paragraph.iter(shdBreak):            
                 for shadow in paragraph.iter(shdBreak): #bloody generator making me use a for loop for one element
