@@ -76,8 +76,8 @@ def get_docx_text(path):
         if paragraph.find(PARAPROPS).find(paraBorders):
             for sideElement in paragraph.find(PARAPROPS).find(paraBorders).iter():
                 pass
-                #if sideElement != WORD_NAMESPACE + "between":
-                    #sideElement.attrib["val"] =
+                if sideElement != WORD_NAMESPACE + "between":
+                    styleAdditions.append("border-style:"+borderTypes[sideElement.attrib["val"]])
                         
 		#GET ALL THE TEXT, FIX TO PUT TEXT INTO ITS HTML ELEMENT
         paragraphText = [element.text for element in paragraph.iter(TEXT) if element.text] #make a list comprehension of styles to match
